@@ -1,7 +1,7 @@
 from django.test import TestCase
 from core.erp.models import *
 
-obj=Employee.objects.filter()
+print(Category.objects.all())
 
-for i in Type.objects.filter():
-  print(i.name)
+for i in Category.objects.filter():
+  print(i)
